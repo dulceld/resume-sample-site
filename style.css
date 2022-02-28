@@ -1,40 +1,23 @@
+body {
+  font-family: sans-'Courier New', monospace;
+  margin: auto;
+  padding: 2em;
+  max-width: 700px;
+  display: flex;
+  align-items: flex-start;
+  font-size: small;
+  font-weight: lighter;
+  
+}
 
 img {
   position: relative;
   top: 33%; left:33%;
   width: 135px;
   height: 135px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-
-.output {
-  background: rgb(241, 239, 239);
-  position: relative;
-}
-.min-content {
-  text-align: center;
-  width: 30px;
-  height: 50px;
-  margin: 0px;
-  padding: 44px;
-  border: 2px dotted rgb(96, 139, 168);
-}
-
-
-
-
-
-body {
-  font-family: sans-serif;
-  margin: auto;
-  padding: 2em;
-  max-width: 700px;
-  display: flex;
-  align-items: flex-start;
-  font-size: 10pt;
-  font-weight: lighter;
-}
-
-
 
 div#left-column {
   flex: 1 1 850px;
@@ -43,18 +26,19 @@ div#left-column {
 }
 
 
-
 div#right-column {
-  border-left: black solid 1px;
+  border-left: rgb(221, 220, 226) solid 1px;
   flex: 1 1 580px;
   padding: 1.5em;
   line-height: 1.2em;
 }
+
 #initials,
 h1,
 h2 {
   text-align: center;
   font-weight: lighter;
+  color: rgb(97, 113, 165);
 }
 
 h1,
@@ -65,31 +49,21 @@ h3 {
 
 #initials,
 h2 {
-  border-bottom: black solid 1px;
+  border-bottom: rgb(218, 217, 241) solid 1px;
   margin: 1rem 0;
   padding-bottom: 1rem;
 }
 
-#initials {
-  font-family: sans-serif;
-  font-size: 4em;
-  margin-bottom: 2rem;
-  padding: 2rem;
-}
-
-h1 {
-  margin-bottom: 0.75em;
-}
 
 #job-title {
-  font-family: sans-serif;
+  font-family: sans-'Courier New', monospace;
   text-align: center;
   font-size: large;
   
 }
 
 p {
-  font-family: serif;
+  font-family: Garamond, serif;;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
