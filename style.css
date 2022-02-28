@@ -1,3 +1,10 @@
+
+img {
+  width: 135px;
+  height: 135px;
+}
+
+
 body {
   font-family: sans-serif;
   margin: auto;
@@ -9,10 +16,12 @@ body {
   font-weight: lighter;
 }
 
+
+
 div#left-column {
   flex: 1 1 400px;
-  padding: 1em;
-  line-height: 1.5em;
+  padding: 1.5em;
+  line-height: 1.3em;
 }
 
 div#right-column {
@@ -56,6 +65,7 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   font-size: large;
+  
 }
 
 p {
