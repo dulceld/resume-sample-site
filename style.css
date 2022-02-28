@@ -37,7 +37,7 @@ body {
 
 
 div#left-column {
-  flex: 1 1 1100px;
+  flex: 1 1 850px;
   padding: 1.5em;
   line-height: 1.3em;
 }
@@ -46,8 +46,8 @@ div#left-column {
 
 div#right-column {
   border-left: black solid 1px;
-  flex: 1 1 555px;
-  padding: 1em;
+  flex: 1 1 580px;
+  padding: 1.5em;
   line-height: 1.2em;
 }
 #initials,
