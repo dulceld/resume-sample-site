@@ -55,15 +55,20 @@ h2 {
   margin: 1rem 0;
   padding-bottom: 1rem;
   padding-top: 1rem;
-
+  border-left:rgb(218, 217, 241) solid 3px;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+  border-right:rgb(218, 217, 241) solid 3px;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
 }
 
 
 #job-title {
-  font-family: sans-'Courier New', monospace;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: large;
-  
+  font-weight: bolder;
 }
 
 p {
@@ -71,6 +76,10 @@ p {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+ul{
+  font-family: Garamond, serif;
+}
+
 
 .date-range {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
